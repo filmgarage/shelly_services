@@ -24,3 +24,15 @@ I would love to see real minds take this to the next level
 ## Gen 2 and device:
 
 <img width="665" height="622" alt="Shelly Service Gen 2plus Screenshot" src="https://github.com/user-attachments/assets/a83224ef-f1d5-42c8-bc61-c0f7675f6aa8" />
+
+## Installation
+
+### HACS
+1. Go to HACS → Integrations → Custom Repositories.
+2. Add your repo URL (`https://github.com/filmgarage/shelly_services`) as type *Integration*.
+3. Search for "Shelly Services" in HACS and install.
+4. Restart Home Assistant.
+
+### Manual
+1. Copy the `shelly_services` folder into `config/custom_components/`.
+2. Restart Home Assistant.
