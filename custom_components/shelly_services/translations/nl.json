@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Shelly Services Configuratie",
+        "description": "Beheer authenticatie op alle Shelly devices. Voer inloggegevens in voor het in-/uitschakelen van authenticatie.",
+        "data": {
+          "username": "Gebruikersnaam",
+          "password": "Wachtwoord"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Er kan maar één instantie actief zijn"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Shelly Services Opties",
+        "description": "Wijzig inloggegevens voor authenticatie beheer",
+        "data": {
+          "username": "Gebruikersnaam",
+          "password": "Wachtwoord"
+        }
+      }
+    }
+  }
+}
