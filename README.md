@@ -32,7 +32,13 @@ I would love to see real minds take this to the next level
 2. Add your repo URL (`https://github.com/filmgarage/shelly_services`) as type *Integration*.
 3. Search for "Shelly Services" in HACS and install.
 4. Restart Home Assistant.
+5. Go to Settings -> Devices and Services.
+6. Add Integration, search for Shelly Services.
+7. Set default username and password for device authentication.
 
 ### Manual
 1. Copy the `shelly_services` folder into `config/custom_components/`.
 2. Restart Home Assistant.
+3. Go to Settings -> Devices and Services.
+4. Add Integration, search for Shelly Services.
+5. Set default username and password for device authentication.
